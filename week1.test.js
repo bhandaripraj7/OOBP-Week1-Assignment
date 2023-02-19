@@ -76,7 +76,7 @@ describe("personToString", () => {
         fullName: "John Doe",
         isAdult: true,
       })
-    ).toBe("The person John, Doe is 30 years old, and is an adult");
+    ).toBe("The person John, Doe is 30 years old, and is an adult.");
   });
 
   test("person to string with a minor", () => {
